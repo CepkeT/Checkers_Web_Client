@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#game-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-size: 20px;
+}
+
+#game-area {
+    width: 100%;
+    height: 500px; /* Вы можете изменить размер в соответствии с вашими потребностями */
+}
+
+#game-chat {
+    /* Стили для чата */
+}

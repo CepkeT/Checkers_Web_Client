@@ -1,0 +1,25 @@
+{
+    "name": "new/checkers_web_client",
+    "description": "веб клиент для длипломного проекта",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/validator": "^7.0",
+        "twig/twig": "^3.10",
+        "firebase/php-jwt": "^6.10",
+        "monolog/monolog": "^3.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "New\\CheckersWebClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CepkeT",
+            "email": "twinkakk999@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
